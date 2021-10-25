@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: #eef; */
+    color: white;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(/cakeshopweb/img/cake\ 6.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+h1{
+    color: thistle;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    height: 12vh;
+    width: 100%;
+    /* background-color: black; */
+}
+.leftnav{
+    width: 25%;
+}
+.rightnav{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlist
+{
+    width: 25%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlist li a{
+    text-decoration: none;
+    margin: 0 34px;
+    font-size: 22px;
+    /* color: black; */
+}
+.navlist li a:hover{
+    color: rgb(217, 255, 0);
+}
+.logo{
+    width: 25%;
+    padding: 4px;
+}
+.logo img{
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 220px;
+}
+.firstsec{
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    width: 50%;
+    padding: 50px;
+    margin: 20px;
+}
+.bold1{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin: 22px;
+    color: yellowgreen;
+}
+.cake1 img{
+    width: 25%;
+    border: 1px solid darkblue;
+    border-radius: 50px;
+}
+.secondsection{
+    background-color: rgb(239, 241, 229);
+    height: 700px;
+    width: 100%;
+}
+h2{
+    color: darkred;
+    font-weight: bold;
+    font-size: 30px;
+}
+.info-items{
+    color: black;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-1{
+    padding: 18px;
+    text-align: center;
+    color: cadetblue;
+}
+.first-item{
+    /* background-color: yellowgreen; */
+    width: 75%;
+    margin: auto;
+    padding: 14px;
+}
+.cake{
+    width: 50%;
+}
+.cake img{
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 20px;
+}
+.contact{
+    height: 450px;
+    background-color: rgb(247, 215, 220);
+}
+.textcenter{
+    /* font-size: 35px; */
+    padding-top: 10px;
+    text-align: center;
+    color: cornflowerblue;
+}
+.form{
+    /* width: 75%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txt-input{
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px 10px;
+    margin: 12px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: cornsilk;
+    border: 1px solid white;
+    border-radius: 22px;
+}
+.txt1
+{
+    margin: 25px 0 10px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+.btn{
+    margin-top: 10px;
+    color: black;
+    background-color: rgb(177, 220, 20);
+    padding: 4px 10px;
+    border: 1px solid white;
+    border-radius: 22px;
+}
+.btn:hover{
+    /* color: darkgray; */
+    background-color: darkgray;
+}
+.location{
+    margin-top: 45px;
+    width: 100%;
+    /* max-width: 450px; */
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center; */
+    border: 1px solid white;
+    border-radius: 22px;
+}
+.loc{
+    margin: 5px;
+    /* padding: 5px; */
+    color: black;
+}
+h3{
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 25px;
+}
+footer{
+    padding: 5px 0 5px;
+    /* color: rgb(0, 0, 0); */
+    /* background: cornsilk; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
